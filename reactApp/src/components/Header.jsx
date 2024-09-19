@@ -10,13 +10,14 @@ export default function Header() {
   
   return (
     <div className="header">
-      <h1>Teste React DOM</h1>
+      <h1>Teste React DOM & Consumo API</h1>
 
       <nav>
         <ul style={ul}>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/about'>About us</Link></li>
           <li><Link to='/contact'>Contact</Link></li>
+          <li><Link to='/consulta-cep'>Consultar CEP</Link></li>
         </ul>
       </nav>
     </div>
